@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Florist {
+    //prova
     private String name;
     private List<Product> stock;
     private List<Ticket> tickets;
