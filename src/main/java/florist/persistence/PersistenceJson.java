@@ -1,4 +1,5 @@
 package florist.persistence;
+import florist.models.Florist;
 import florist.models.Product;
 
 import java.io.*;
