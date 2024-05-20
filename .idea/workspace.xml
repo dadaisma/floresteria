@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3035c61a-81bf-490c-970b-3168188f824c" name="Changes" comment="comentario de prueva">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.7/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.7/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.7/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/florist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/florist/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/florist/factory/ProductFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/florist/factory/ProductFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/florist/persistence/PersistenceJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/florist/persistence/PersistenceJson.java" afterDir="false" />
-    </list>
+    <list default="true" id="3035c61a-81bf-490c-970b-3168188f824c" name="Changes" comment="comentario de prueva" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,7 +46,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging Diana",
+    "git-widget-placeholder": "Diana",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Gaming/Desktop/Cibernàrium/Floristeria/floresteria"
   }
