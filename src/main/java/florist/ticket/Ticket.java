@@ -6,16 +6,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Ticket {
+    private static int lastID;
+    private final int ID;
    private List<Product> products;
    private double total;
 
    public Ticket(List<Product> products){
+       this.ID = lastID++;
        this.products= products;
        this.total = calculateTotal();
    }
 
    private double calculateTotal(){
-       return products.stream().mapToDouble(Product::getPrice).sum();
+       return products.stream().mapToDouble(Product::getPrice).sum();//funciona?¿?¿?
    }
 
     public void addProduct(Product p) {//necessitem aquest metode en algun lloc?? per crear el ticket necessitem la llista completa de products
@@ -43,5 +46,9 @@ public class Ticket {
 
     public void setTotal(double total) {
         this.total = total;
+    }
+
+    public int getID() {
+        return ID;
     }
 }

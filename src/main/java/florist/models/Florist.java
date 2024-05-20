@@ -8,7 +8,8 @@ import java.util.List;
 
 public class Florist {
     //prova nova
-
+    private static int lastID;
+    private final int ID;
     private String name;
     private List<Product> stock;
     private List<Ticket> tickets;
@@ -16,6 +17,7 @@ public class Florist {
     private double totalSales;
 
     public Florist(String name) {
+        this.ID = lastID++;
         this.name = name;
         this.stock = new ArrayList<>();
         this.tickets = new ArrayList<>();
@@ -83,14 +85,16 @@ public class Florist {
         System.out.println("Total Stock Value: " + totalStockValue);
     }
 
-    public Ticket createTicket(List<Product> products) {
+    public Ticket createTicket(List<Product> products) {//TODO: la list tiene que estar validada
         Ticket ticket = new Ticket(products);
         tickets.add(ticket);
         for (Product p : products) {
             totalSales += p.getPrice();
+            removeProduct(p);
         }
         return ticket;
     }
+    //TODO: metodo validarList con el stock actual
     public void showOldPurchases() {
         System.out.println("------------------OLD PURCHASES------------------");
         tickets.forEach(t -> System.out.println(t));
@@ -139,5 +143,9 @@ public class Florist {
 
     public void setTotalSales(double totalSales) {
         this.totalSales = totalSales;
+    }
+
+    public int getID() {
+        return ID;
     }
 }
