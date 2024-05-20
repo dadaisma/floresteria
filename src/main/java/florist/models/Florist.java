@@ -61,7 +61,7 @@ public class Florist {
     }
 
     public void printStockWithQuantities() {
-        int treeCount=0, flowerCount=0, decorationCount=0; //must set to 0 to clean previous counts
+        int treeCount=0, flowerCount=0, decorationCount=0; //must be set to 0 to clean previous counts
         for(Product p : stock){
             if(p instanceof Tree){
                 treeCount++;
@@ -89,8 +89,8 @@ public class Florist {
         }
         return ticket;
     }
-
     public void showOldPurchases() {
+        System.out.println("------------------OLD PURCHASES------------------");
         tickets.forEach(t -> System.out.println(t));
     }
 
