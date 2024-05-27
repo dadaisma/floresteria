@@ -1,7 +1,6 @@
 package florist.models;
 
 public abstract class Product {
-    protected int lastID;
     protected int ID;
     protected String name;
     protected double price;
