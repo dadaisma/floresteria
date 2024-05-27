@@ -4,6 +4,7 @@ public class Decoration extends Product{
 
     public Decoration() {
     }
+
     @Override
     public int getID() {
         return super.getID();
